@@ -1,0 +1,75 @@
+/* Background light blue */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #add8e6; /* lightblue */
+}
+
+/* Container */
+.container {
+    max-width: 700px;
+    margin: 60px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Judul */
+h1 {
+    margin-bottom: 20px;
+    color: #1e3a8a;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #3b82f6;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Dropdown */
+select {
+    padding: 6px;
+    border-radius: 6px;
+}
+
+/* Gambar kiri */
+.img-kiri {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 220px;
+}
+
+/* Gambar kanan */
+.img-kanan {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 220px;
+}
+button {
+    padding: 10px 15px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
